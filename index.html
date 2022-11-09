@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.min.css" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/regular.min.css" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.min.css" /> -->
-    <script type="module" crossorigin src="assets/index.56e72a7d.js"></script>
-    <link rel="stylesheet" href="assets/index.06ec431e.css" />
+    <script type="module" crossorigin src="/assets/index.56e72a7d.js"></script>
+    <link rel="stylesheet" href="/assets/index.677cf2a7.css">
   </head>
   <body class="flex h-screen items-center justify-center bg-gradient-to-b from-cyan-500 to-blue-500 font-['Poppins'] text-white">
-    <div class="grid max-w-md grid-rows-[auto_1fr] place-items-center gap-4 sm:rounded-xl sm:bg-white/10 sm:p-8 sm:shadow-xl sm:shadow-blue-500">
+    <div class="grid max-w-md grid-rows-[auto_1fr] place-items-center gap-4 p-4 sm:rounded-xl sm:bg-white/10 sm:p-8 sm:shadow-xl sm:shadow-blue-500">
       <!-- Search input -->
       <!-- TODO: add input animation -->
       <div class="opacity-0 transition-all duration-[500ms]" id="intro">
@@ -25,13 +25,7 @@
       </div>
 
       <form action="" class="relative flex -translate-x-24 items-center self-start opacity-0 transition-all duration-[500ms]" id="form">
-        <input list="list" id="formName" type="text" placeholder="Enter a GitHub username" class="rounded-3xl py-2 px-12 text-center font-light text-gray-500 outline-none ring-offset-4 ring-offset-blue-300 transition placeholder:text-xs focus:ring" />
-
-        <datalist id="list">
-          <option value="viorelmocanu"></option>
-          <option value="github"></option>
-          <option value="youtube"></option>
-        </datalist>
+        <input id="formName" type="text" placeholder="Enter a GitHub username" class="block rounded-3xl py-2 px-8 text-center font-light text-gray-500 outline-none ring-offset-4 ring-offset-blue-300 transition placeholder:text-xs focus:ring" />
 
         <i class="fa-brands fa-github absolute left-4 animate-bounce text-3xl text-gray-500"></i>
 
@@ -85,7 +79,7 @@
       </div>
     </div>
     <script src="https://kit.fontawesome.com/f9752815e8.js" crossorigin="anonymous"></script>
-
+    
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script>
