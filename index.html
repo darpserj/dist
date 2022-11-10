@@ -28,7 +28,7 @@
       <!-- TODO: add input animation -->
       <div class="opacity-0 transition-all duration-[500ms]" id="intro">
         <h1 class="text-center text-7xl font-bold">Github Viewer</h1>
-        <p class="mt-4 text-center font-light">Created by <a href="#" class="font-medium">Sergiu Darius Popa</a></p>
+        <p class="mt-4 text-center font-light">Created by <a id="profile" href="https://github.com/darpserj/" class="font-medium">Sergiu Darius Popa</a></p>
       </div>
 
       <form action="" class="relative flex -translate-x-24 items-center self-start opacity-0 transition-all duration-[500ms]" id="form">
@@ -96,6 +96,10 @@
     <script>
       tippy("#submit", {
         content: "Let's go!",
+        placement: "right",
+      });
+      tippy("#profile", {
+        content: "Check out my github profile!",
         placement: "right",
       });
     </script>
