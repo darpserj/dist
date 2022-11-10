@@ -101,6 +101,23 @@
       tippy("#profile", {
         content: "Check out my github profile!",
         placement: "right",
+        popperOptions: {
+          modifiers: [
+            {
+              name: "flip",
+              options: {
+                fallbackPlacements: ["bottom", "right"],
+              },
+            },
+            {
+              name: "preventOverflow",
+              options: {
+                altAxis: true,
+                tether: false,
+              },
+            },
+          ],
+        },
       });
     </script>
   </body>
